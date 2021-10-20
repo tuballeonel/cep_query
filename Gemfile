@@ -30,7 +30,12 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Add
   gem 'letter_opener', '~> 1.7'
+end
+
+group :test do
   gem 'rspec-rails', '~> 5.0', '>= 5.0.2'
+  gem 'vcr', '~> 6.0'
+  gem 'webmock', '~> 3.14'
 end
 
 group :development do

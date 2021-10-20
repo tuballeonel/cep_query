@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://cep.la/74560540
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Cache-Control:
+      - no-cache
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 20 Oct 2021 12:43:18 GMT
+      Content-Type:
+      - application/json
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '117'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJjZXAiOiI3NDU2MDU0MCIsInVmIjoiR08iLCJjaWRhZGUiOiJHb2nDom5pYSIsImJhaXJybyI6IlNldG9yIENlbnRybyBPZXN0ZSIsImxvZ3JhZG91cm8iOiJBdmVuaWRhIE1hcmVjaGFsIFJvbmRvbiJ9
+  recorded_at: Wed, 20 Oct 2021 12:43:18 GMT
+recorded_with: VCR 6.0.0

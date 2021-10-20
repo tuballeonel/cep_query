@@ -24,6 +24,11 @@ INSTALL:
 
 * rails db:seed
 
+TEST:
+
+* rake db:migrate RAILS_ENV=test
+* RAILS_ENV=test rails db:seed
+* rspec
 
 RUN THE PROJECT:
 
